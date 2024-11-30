@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Appetizer </title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+ 
+
+    <header> 
+        <nav>
+            <p id="brand-name"> Delicious <br>Discoveries </p>
+            <a href="home.html" target="_self"> <img src="logo.png" alt="logo" id="logo" width="85"> </a>
+    
+            <div class="navigation"> 
+                <a href="home.html" target="_self"> HOME </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="about.html" target="_blank"> ABOUT US </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="contact.html" target="_blank"> CONTACT </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="service.html" target="_blank"> SERVICE </a>      
+            </div>
+      
+            <input type="text" id="search-bar" placeholder="Find a recipe">  
+            <img src="search.png" alt="logo search" id="search" width="25">
+        </nav>
+    </header>
+    <main>
+        
+       <h1 class="recipe-category"> APPETIZER </h1>
+       <p class="recipe-description"> A variety of bite-sized delights and starters that set the tone for a perfect meal. These small, <br>
+         flavorful dishes are designed to excite the palate and prepare you for the main course.</p>
+        
+       
+         <form> 
+            <input type="button" id="back-to-categories" value="Back to Categories" onclick="backCategories()">
+          <span id="arrow-back">  <img src="arrow-back.png" width="30"> </span> 
+            </form>
+           
+        <hr class="line-fr">
+
+        <div class="side-left"> </div>
+
+        <div class="food-1" id="food1Container"> 
+            <img src="lumpiang shanghai.jpg" width="165" height="160" id="appetizer1-image">
+            
+            <div id="top-food-wrapper">
+                <img src="star.png" class="icon-star" width="16">
+                <p id="top-food"> TOP RATED </p> 
+            </div>
+            
+            <p id="food-name"> Lumpiang Shanghai </p> 
+            <p id="food-description"> A Filipino spring roll filled with seasoned ground pork, carrots, and onions, <br>
+                 rolled in thin wrappers. </p> 
+           <p id="food-date"> June 18, 2024 </p>    
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+
+           <div class="dishesDetails" style="display: none">
+            <div class="nameRecipe"> 
+            <p> Ingredients </p> 
+            <p> Instructions </p>   
+           </div>
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <li>1 ½ lb. ground pork</li>
+                <li>2 pieces longanisa</li>
+                <li>1 piece Knorr Pork Cube</li>
+                <li>1 piece carrot minced</li>
+                <li>¾ cup green onion chopped</li>
+                <li>¾ cup singkamas minced</li>
+                <li>1 piece onion minced</li>
+                <li>¼ teaspoon garlic powder</li>
+                <li>1 piece egg</li>
+                <li>1 ½ teaspoons salt</li>
+                <li>½ teaspoon ground black pepper</li>
+                <li>20 pieces lumpia wrapper</li>
+                <li>2 cups cooking oil</li>
+            </ul>
+          <ol class="instructions">
+            <li>Combine ground pork and longanisa. Add carrot, onion, singkamas, and green onion. Season with garlic powder, salt, and ground black pepper. Mix well.</li>
+             <li>Grate a piece of Knorr Pork Cube using a cheese grater. Add egg. Mix until all ingredients are well blended.</li>
+            <li>Scoop a tablespoon of mixture. Place it on a piece of lumpia wrapper. Secure the filling by wrapping.</li>
+            <li>Heat oil in a deep pot or deep fryer. Deep-fry the lumpia for to 12 minutes using medium heat (320F).</li>
+            <li>Once the lumpia turns golden brown, remove from the fryer. Set aside.</li>
+            <li>Make the sweet and sour sauce by combining sugar, ketchup, soy sauce, and vinegar in a pot. Apply heat and boil. Pour cornstarch and water mixture. Stir until thick. Set aside.</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo"> 
+            <p id="vid-title"> How to Cook Delicious Lumpiang Shanghai </p> 
+            <iframe id="recipeVideo" width="460" height="315" src="https://www.youtube.com/embed/73Ga7k07Snc?si=u-HQ6dFYs7jPx4nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div> 
+        </div>
+        </div>
+
+            <div class="food-2" id="food2Container"> 
+            <img src="Fried Ham and Cheese Roll.jpeg" width="165" height="160"id="appetizer2-image">
+            <p id="food-name"> Fried Ham and Cheese Roll </p> 
+            <p id="food-description"> Crispy Filipino snack made by rolling ham and cheese in a wrapper. </p> 
+           <p id="food-date"> November 13, 2024 </p>
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+           
+           <div class="dishesDetails" style="display: none">
+            <div class="nameRecipe"> 
+            <p> Ingredients </p> 
+            <p> Instructions </p>   
+        </div>
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <li>8 slices bread</li>
+                <li>4 ounces ham sliced into thick strips</li>
+                <li>3 ounces cheese sliced into thick strips</li>
+                <li>1/4 cup pimento optional</li>
+                <li>3/4 cup Panko bread crumbs</li>
+                <li>2 pieces eggs beaten</li>
+                <li>2 cups cooking oil</li>
+                <li>1/2 cup mayonnaise</li>
+            </ul>
+          <ol class="instructions">
+            <li>Remove the dark ends of the sliced bread.</li>
+            <li>Heat the cooking oil in a cooking pot.</li>
+            <li>Place the bread slices in a zip lock bag. Flatten using a rolling pin.</li>
+            <li>Spread mayonnaise on the flatten piece of bread</li>
+            <li>Arrange the ham, cheese, and pimento strips on the bread. Roll the bread until the filling is covered. Secure with a toothpick.</li>
+            <li>Dip the rolled bread in beaten egg. Place the Panko bread crumbs in a large Ziploc bag and then put the dipped rolls in. Shake until everything is covered with crumbs.</li>
+            <li>Fry in low to medium heat until the color turns golden brown (about 5 to 7 minutes).</li>
+            <li>Arrange the fried rolls in a plate line with paper towels.</li>
+            <li>Serve as a snack or slice into pieces and serve as an appetizer.</li>
+            <li>Share and enjoy!</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo"> 
+            <p id="vid-title"> How to Cook Fried Ham and Cheese Roll </p> 
+        <iframe id="recipeVideo" width="460" height="315" src="https://www.youtube.com/embed/VJKmWRsY6uI?si=DD3Kq0vsgOiVSuxR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div> 
+        </div>
+            <div class="food-3" id="food3Container">
+                <img src="Asian Chicken Lettuce Wrap.jpeg" width="165"  height="160"id="appetizer3-image">
+                <p id="food-name"> Inihaw na Liempo</p> 
+                <p id="food-description"> Inihaw na Liempo is a Filipino grilled pork belly dish marinated in a savory and tangy blend of spices, perfect for outdoor barbecues. </p> 
+               <p id="food-date"> October 04, 2023 </p>
+               <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+
+               <div class="dishesDetails" style="display: none">
+                <div class="nameRecipe"> 
+                <p> Ingredients </p> 
+                <p> Instructions </p>   
+            </div>
+                <div class="recipeEssential">
+                <ul class="ingredients">
+                    <li>½ cup calamansi juice</li>
+                    <li>¼ cup fish sauce</li>
+                    <li>1 head garlic, peeled and minced</li>
+                    <li>2 Thai chili peppers, minced</li>
+                    <li>2 tablespoons brown sugar</li>
+                    <li>1 teaspoon salt</li>
+                    <li>½ teaspoon pepper</li>
+                    <li>2 pounds pork belly, cut into ½-inch thick slices</li>
+                    <li>1 tablespoon canola or sesame oil</li>
+                    <li>2 tablespoons oyster sauce</li>
+                    <ul class="ingredients">
+                    <p>  For the Spiced Vinegar Dip </p>
+                    <li>1 cup vinegar</li>
+                    <li>4 cloves garlic, peeled and minced</li>
+                    <li>½ onion, peeled and finely chopped</li>
+                    <li>2 Thai chili peppers, chopped</li>
+                    <li>½ teaspoon salt</li>
+                    <li>¼ teaspoon freshly ground pepper</li>
+                </ul>
+
+                </ul>
+              <ol class="instructions">
+                 <li>In a bowl, combine calamansi juice, fish sauce, garlic, chili peppers, brown sugar, salt, and pepper. Stir well until sugar and salt are dissolved.</li>
+  <li>Add pork belly and massage marinade into the meat. Transfer into a ziplock bag and marinate in the refrigerator for 4 hours or overnight, turning the bag once or twice.</li>
+  <li>Drain pork from marinade, reserving about 1 cup of the liquid.</li>
+  <li>In a saucepan over medium heat, bring reserved marinade to a boil for about 3 to 5 minutes or until reduced.</li>
+  <li>In a small bowl, combine the reduced marinade, oyster sauce, and oil.</li>
+  <li>Arrange pork in a single layer on lightly-oiled hot grill and cook for about 2 to 3 minutes on each side. When the pork begins to lose its pink color, regularly brush with basting sauce.</li>
+  <li>Continue to grill for about 4 to 5 minutes on each side or until pork is cooked through.</li>
+  <li>Remove from grill and cut into serving pieces. Serve with spiced vinegar dip.</li>
+            </ol>           
+            </div>
+            <div class="dishesVideo"> 
+                <p id="vid-title"> How to Cook Delicious Inihaw na Liempo </p> 
+                <iframe id="recipeVideo"width="460" height="315" src="https://www.youtube.com/embed/I4kFGCvQX4Q?si=8t2kkbpgWPmO8Tlz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>
+            </div> 
+             </div>
+            <div class="food-4" id="food4Container"> 
+            <img src="Vegetable Okoy.jpg" width="165" height="160" id="appetizer4-image">
+            <p id="food-name"> Vegetable Okoy</p> 
+            <p id="food-description"> Okoy is one of the best snacks or appetizers out there. Its stunning, golden brown appearance is one hard to ignore; <br> popularized by  street vendors around the country, okoy is beloved for
+                its easy to find ingredients and its simple cooking process. </p> 
+           <p id="food-date"> February 20, 2023 </p>
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+
+           <div class="dishesDetails" style="display: none">
+            <div class="nameRecipe"> 
+            <p> Ingredients </p> 
+            <p> Instructions </p>   
+        </div>
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <li>8 ounces kalabasa</li>
+                <li>1 piece carrot</li>
+                <li>3/4 cup malunggay leaves</li>
+                <li>1 cup cooking oil</li>
+            </ul>
+                <p> For the Batter </p>
+                <li>1/2 cup cornstarch</li>
+                <li>3/4 cup flour</li>
+                <li>4 grams Maggi Magic Sarap</li>
+                <li>1 egg</li>
+                <li>3/4 cup water</li>
+                <p> For the Dipping Sauce </p>
+                <li>½ piece onion chopped</li>
+                <li>2 tablespoons green onion chopped</li>
+                <li>¾ cups white vinegar</li>
+                <li>4 grams Maggi Magic Sarap</li>
+            </ul>
+          <ol class="instructions">
+            <li>Slice the kalabasa and carrot into matchstick pieces.</li>
+             <li>Combine all the sliced vegetables including the malunggay leaves in a mixing bowl. Toss to blend.</li>
+            <li>Make the batter by beating an egg on a separate bowl. Add water. Mix well. Gradually add flour and cornstarch while mixing. 
+                Add Maggi Magic Sarap. Whisk until the texture of the batter smoothens.</li>
+            <li>Combine the batter with the vegetables. Fold until the vegetables are completely coated with the batter.</li>
+            <li>Make the dipping sauce by combining all dipping sauce ingredient in a bowl. Stir until blended.</li>
+            <li>Heat oil in a pan. Scoop around ¼ cup of mixture and place it on a saucer or small bowl. Slide the mixture into the pan. 
+                Fry until golden brown and crispy. Flip the okoy and do the same to the opposite side.</li>
+            <li>Transfer to a serving plate. Serve with dipping sauce. Share and enjoy!</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo"> 
+            <p id="vid-title"> How to Cook Delicious Vegetable Okoy </p> 
+            <iframe id="recipeVideo"width="460" height="315" src="https://www.youtube.com/embed/JsH4PpIvtFU?si=SmE0HgAr4ZxCicM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div> 
+        </div>
+        <script src="script.js"></script> 
+    </main>
+    </body>
+    </html>

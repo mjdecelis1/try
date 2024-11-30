@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+    <title> Soups </title>
+</head>
+
+<body>
+
+    <header> 
+        <nav>
+            <p id="brand-name"> Delicious <br>Discoveries </p>
+            <a href="home.html" target="_self"> <img src="logo.png" alt="logo" id="logo" width="85"> </a>
+    
+            <div class="navigation"> 
+                <a href="home.html" target="_self"> HOME </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="about.html" target="_blank"> ABOUT US </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="contact.html" target="_blank"> CONTACT </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="service.html" target="_blank"> SERVICE </a>      
+            </div>
+      
+            <input type="text" id="search-bar" placeholder="Find a recipe">  
+            <img src="search.png" alt="logo search" id="search" width="25">
+        </nav>
+    </header>
+    <main>
+        
+       <h1 class="recipe-category"> SOUPS </h1>
+       <p class="recipe-description">Warm and comforting, our soups range from light broths to rich, creamy varieties, perfect for any <br>
+         season. These bowls of goodness are designed to nourish and satisfy.</p>
+       
+              
+        <form> 
+            <input type="button" id="back-to-categories" value="Back to Categories" onclick="backCategories()">
+          <span id="arrow-back">  <img src="arrow-back.png" width="30"> </span> 
+            </form>
+           
+        <hr class="line-fr">
+
+        <div class="side-left"> </div>
+
+            <div class="food-1" id="food1Container"> 
+            <img src="chicken sotanghon.jpg" width="165" height="160" id="soup1-image">
+    
+            
+            <div id="top-food-wrapper">
+                <img src="star.png" class="icon-star" width="16">
+                <p id="top-food"> TOP RATED </p> 
+            </div>
+            
+            <p id="food-name"> Sotanghon Soup </p> 
+            <p id="food-description"> Velvety blend of cooked cauliflower, garlic, and spices, simmered to <br>
+                 perfection and finished with cream for a comforting, flavorful dish. </p> 
+           <p id="food-date"> November 16, 2020</p>    
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown"> 
+
+           <div class="dishesDetails" style="display: none">
+            <div class="nameRecipe"> 
+            <p> Ingredients </p> 
+            <p> Instructions </p>   
+        </div>
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <li>2 lbs chicken</li>
+                <li>3 pieces dried bay leaves</li>
+                <li>4 tablespoons soy sauce</li>
+                <li>6 tablespoons white vinegar</li>
+                <li>5 cloves garlic</li>
+                <li>1 1/2 cups water</li>
+                <li>3 tablespoons cooking oil</li>
+                <li>1 teaspoon sugar</li>
+                <li>1/4 teaspoon salt</li>
+                <li>1 teaspoon whole peppercorn</li>
+            </ul>
+          <ol class="instructions">
+            <li>In a large pot over medium heat, heat oil.</li>
+            <li>Add onions, garlic, and ginger and cook until softened.</li>
+            <li>Add chicken and cook, stirring regularly, until lightly browned and juices run clear.</li>
+            <li>Add celery and cook, stirring regularly, for about 1 to 2 minutes or until softened.</li>
+            <li>Add fish sauce and cook for about 1 to 2 minutes.</li>
+            <li>Add chicken broth and bring to a boil, skimming any scum that floats on top.</li>
+            <li>Lower heat, cover, and continue to cook until chicken is cooked through.</li>
+            <li>In a bowl, combine about ½ cup of the hot broth and atsuete powder. Stir until atsuete <br>
+                 is dissolved. Add atsuete water to the pot.</li>
+            <li>Add carrots and cook for about 1 to 2 minutes or until half-done. Season with salt and <br>
+                pepper to taste.</li>
+            <li>Add sotanghon noodles and push them down into the broth to soften, <br>
+                stirring gently to separate.</li>
+            <li>When noodles have slightly softened, add cabbage and cook for another 2 to <br>
+                 3 minutes or until noodles are cooked and vegetables are tender yet crisp.</li>
+            <li>Ladle soup into bowls and top with boiled eggs, fried garlic bits, <br>
+                and green onions. Serve hot.</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo"> 
+        <p id="vid-title"> How to Cook Delicious Sotanghon Soup </p> 
+        <iframe id="recipeVideo" width="450" height="280" src="https://www.youtube.com/embed/BRuROKEMdOM?si=dyYXRc4Oq4fgeIO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+        </div>
+            <div class="food-2" id="food2Container"> 
+            <img src="Beef Mami.jpg" width="165" height="160" id="soup2-image">
+            <p id="food-name"> Beef Mami </p> 
+            <p id="food-description">Beef Mami is a type of Beef Noodle soup of Filipino-Chinese origin. This is simply composed of tender beef brisket <br>
+                and egg noodles, boiled eggs, and other toppings which are soaked in a hot and flavorful beef stock. </p> 
+           <p id="food-date"> By Vanjo Merano </p>
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+           <div class="dishesDetails" style="display: none">
+            <div class="nameRecipe"> 
+            <p> Ingredients </p> 
+            <p> Instructions </p>   
+        </div>
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <li>1 lb. beef brisket</li>
+                <li>6 pieces star anise</li>
+                <li>1 piece beef cube</li>
+                <li>5 cups water</li>
+                <li>2 tbsp cooking oil</li>
+                <li>1 tbsp minced garlic</li>
+                <li>1 medium sized onion minced</li>
+                <li>1/4 cup green onions chopped</li>
+                <li>14 ounces egg noodles cooked</li>
+                <li>1 cup Chinese cabbage pechay Baguio, chopped</li>
+                <li>4 pieces hard boiled eggs</li>
+                <li>salt and pepper to taste</li>
+
+            </ul>
+          <ol class="instructions">
+            <li>Put the oil in a cooking pot and apply heat</li>
+             <li>Saute the garlic and onions</li>
+            <li>Put-in the beef brisket and cook until the color of the outer part turns light brown</li>
+            <li>Add the beef cube and star anise</li>
+            <li>Pour-in the water and bring to a boil. Allow to boil until beef becomes tender
+            </li>
+            <li>Add salt and pepper to taste</li>
+            <li>Place the cooked egg noodles and Chinese cabbage in a serving bowl</li>
+            <li>Pour the soup and beef brisket on the bowl with noodles then garnish with sliced boiled egg and green onions</li>
+            <li>Serve hot. Share and Enjoy!</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo"> 
+            <p id="vid-title"> How to Cook Delicious Beef Mami </p> 
+            <iframe id="recipeVideo" width="560" height="315" src="https://www.youtube.com/embed/m-UBfOcgBcU?si=idMC6qk0Z24uz_at" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div> 
+       
+        </div>
+            <div class="food-3" id="food3Container">
+                <img src="Filipino Chicken Macaroni Sopas.jpg" width="165" height="160" id="soup3-image">
+                <p id="food-name"> Filipino Chicken Macaroni Sopas </p> 
+                <p id="food-description">  A creamy, comforting soup made with tender macaroni, shredded chicken, vegetables, and milk, <br>
+                    seasoned with garlic and onions for a hearty and flavorful dish. </p> 
+               <p id="food-date"> By Vanjo Merano </p>
+               <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+               <div class="dishesDetails" style="display: none">
+                <div class="nameRecipe"> 
+                <p> Ingredients </p> 
+                <p> Instructions </p>   
+            </div>
+                <div class="recipeEssential">
+                <ul class="ingredients">
+                    <li>1 lb. chicken skin removed</li>
+                    <li>2 ounces ham chopped</li>
+                    <li>1/2 lb elbow macaroni</li>
+                    <li>4 stalks celery minced</li>
+                    <li>1 medium yellow onion minced</li>
+                    <li>1 large carrot diced</li>
+                    <li>1 ½ cups chopped cabbage optional</li>
+                    <li>4 cups chicken broth</li>
+                    <li>6 to 8 cups water</li>
+                    <li>1 1/2 cup fresh milk or 1 14 oz. can evaporated milk</li>
+                    <li>3 tablespoons butter</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+              <ol class="instructions">
+                <li>Bring the water to a boil.</li>
+                 <li>Add the chicken. Boil the chicken in low to medium heat for 45 minutes or until tender.</li>
+                <li>Remove the chicken and let cool. Set-aside the water used to boil the chicken. We'll use this later.</li>
+                <li>Once the chicken reaches room temperature, shred the meat using your hands. Discard (throw away) the bones.</li>
+                <li>Meanwhile, heat a clean large cooking pot.</li>
+                <li>Pour-in the butter and oil. Once the butter and oil becomes hot, sauté the onion, carrot, and celery for 3 minutes.</li>
+                <li>Add the shredded chicken and chopped ham. Cook for 2 minutes.</li>
+                <li>Pour-in the chicken broth and the remaining water used to boil the chicken. Stir and let boil. Simmer for 20 minutes.</li>
+                <li>Add the elbow macaroni. Cook for 15 minutes. Add more water if needed.</li>
+                <li>Pour-in the milk. Stir and let boil.</li>
+                <li>Add salt and pepper to adjust the taste.</li>
+                <li>Transfer to a serving bowl. Serve.</li>
+            </ol>           
+            </div>
+            <div class="dishesVideo"> 
+                <p id="vid-title"> How to Cook Chicken Macaroni Sopas </p> 
+                <iframe id="recipeVideo" width="460" height="315" src="https://www.youtube.com/embed/zjs4lmzi2OY?si=EuuepbsSHrTacnSK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div> 
+             </div>
+            <div class="food-4" id="food4Container"> 
+            <img src="Bulalo.webp" width="165" height="160" id="soup4-image">
+            <p id="food-name"> Bulalo </p> 
+            <p id="food-description">Bulalo is a hearty Filipino beef soup made with shank bones, marrow, and vegetables, known for its rich, savory broth. </p> 
+           <p id="food-date"> By Lalaine Manalo </p>
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+           <div class="dishesDetails" style="display: none">
+            <div class="nameRecipe"> 
+            <p> Ingredients </p> 
+            <p> Instructions </p>   
+        </div>
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <li>3 pounds bone-in beef shanks</li>
+                <li>cold water</li>
+                <li>1 large onion, peeled and quartered</li>
+                <li>2 tablespoons fish sauce</li>
+                <li>1 tablespoon peppercorns</li>
+                <li>2 corn, husked and cut into halves</li>
+                <li>1 bunch pechay, leaves separated</li>
+                <li>2 green onions, stemmed and cut into halves</li>
+                <li>salt to taste</li>
+            </ul>
+          <ol class="instructions">
+            <li>In a large pot, combine beef shanks and enough cold water to cover. Bring to a boil.</li>
+             <li>Drain beef and rinse under cold water to remove impurities. Discard the liquid and rinse the pot.</li>
+            <li>In the pot, return meat and enough cold water to cover. Bring to a boil, skimming scum that accumulates on top.</li>
+            <li>When the broth has cleared, add onions, fish sauce, and peppercorns.</li>
+            <li>Lower heat, cover, and cook at a bare simmer for about 1 ½ to 2 hours or until meat is fork-tender but not falling apart.</li>
+            <li>Add corn and simmer for 10 to 15 minutes or until corn is tender.</li>
+            <li>Add the pechay and green onions and cook for about 2 to 3 minutes or until vegetables are tender.</li>
+            <li>Season with salt to taste. Serve hot with fish sauce and calamansi.</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo"> 
+            <p id="vid-title"> How to Cook Bulalo </p> 
+            <iframe  id="recipeVideo" width="460" height="315" src="https://www.youtube.com/embed/QXZikkNHCKU?si=Ri2b1xvRt8nLOXqd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div> 
+        </div>
+       
+        <script src="script.js"></script>
+    </main>
+    </body>
+    </html>

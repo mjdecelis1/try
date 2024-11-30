@@ -1,0 +1,12 @@
+.food-1 {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 16px; 
+    padding: 16px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="updated1.css">
+    <title> Home </title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body class="homepage">
+     <header class="home-nav"> 
+    <nav>
+        
+        <p id="brand-name"> Delicious <br>Discoveries </p>
+        <a href="home.html" target="_self" > <img src="logo.png" alt="logo" id="logo" width="85"> </a>
+
+        <div class="navigation"> 
+        <a href="home.html" target="_self" > HOME </a> 
+        <a href="about.html" target="_blank" > ABOUT US </a>
+        <a href="contact.html" target="_blank" > CONTACT </a> 
+        <a href="service.html" target="_blank" > SERVICE </a>    
+        </div>
+        <div class="searchwtbar">
+        <input type="text" id="search-bar" placeholder="Find a recipe">  
+        <img src="search1.png" alt="logo search"  width="23">
+</div>
+    </nav>
+</header>
+<main> 
+    <div class="home-title">
+        <p id="welcome">WELCOME TO</p>
+        <p id="brand-title"><b>Delicious <br> Discoveries</b></p>
+        <p id="tagline">Healthy food doesn't need to be hard; it must be delicious</p>
+    
+        <div class="button-home">
+            <input type="button" id="view-recipe" value="View Recipes" onclick="goCategories()">
+            <span><img src="arrow-home.png" id="arrowHome" width="23"></span>
+        </div>
+    </div>
+    
+
+    <div class="TopRatedRecipe">
+       <span class="topR"><p> Top Rated Recipes </p>  <img src="trophy.png" width="23" id="trophyHome"> </span>
+        
+        <p id="topRated-description"> Out of all the many recipes on Delicious Discoveries, these are our shining stars 
+            - the recipes we come back to again and again (and again). </p>
+         </div>
+         <div class="topRatedFood">
+            <div class="food-card">
+                <img src="Paksiw na Baboy.jpg" alt="Paksiw na Baboy">
+                <h3>Paksiw na Baboy</h3>
+            </div>
+            <div class="food-card">
+                <img src="lumpiang shanghai.jpg" alt="Lumpiang Shanghai">
+                <h3>Lumpiang Shanghai</h3>
+            </div>
+            <div class="food-card">
+                <img src="bibingka.jpg" alt="Bibingka">
+                <h3>Bibingka</h3>
+            </div>
+            <div class="food-card">
+                <img src="macaroni.jpeg" alt="Macaroni">
+                <h3>Macaroni</h3>
+            </div>
+            <div class="food-card">
+                <img src="chicken sotanghon.jpg" alt="Chicken Sotanghon">
+                <h3>Chicken Sotanghon</h3>
+            </div>
+        </div>
+
+        <div class="sideLeftHome"> </div>
+        <div class="sideRightHome"> </div>
+
+        </main>
+
+        <footer> 
+            <div class="copyrights"> 
+                </div>
+
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    </html>

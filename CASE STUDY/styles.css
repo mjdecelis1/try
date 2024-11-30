@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 84px;
+    background-color: white;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 64px;
+    background-color: rgb(217, 217, 217, 0.3);
+}
+
+#brand-name {
+    font-size: 47px;
+    margin-right: 165px;
+    font-family: 'Sacramento';
+    position: relative;
+    top: 4px;
+    left: 80px;
+    line-height: 0.5;
+}
+
+#logo {
+    position: absolute;
+    top: 6px;
+    left: 1rem;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Aoboshi One';
+    padding: 3px 10px;
+    font-size: 95%;
+    margin-right: 2rem;
+}
+
+#search-bar {
+    padding: 5px 10px;
+    border-radius: 60px;
+    border: 1px solid white;
+    width: 200px;
+    height: 15px;
+    margin-left: auto;
+}
+
+#search {
+    margin-right: 5px;
+    position: relative;
+    right: 28px;
+}
+
+#search-bar::placeholder {
+    color: black;
+    font-size: 13px;
+}
+
+a:hover {
+    background-color: #3B4A2E;
+    display: inline;
+    padding: 3px 10px;
+    border-radius: 60px;
+    color: white;
+    font-size: 95%;
+    margin-right: 2rem;
+}
+
+.homepage {
+    overflow-y: scroll;
+    margin: 0;
+    background-image: url('home.jfif');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 84px;
+    background-color: rgb(217, 217, 217, 0.3);
+    flex-wrap: wrap;
+}
+
+.home-title {
+    margin: 0;
+    position: relative;
+    top: 230px;
+    left: 80px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#welcome {
+    margin: 0;
+    font-size: 24px;
+    color: #3B4A2E;
+    font-family: 'Montserrat';
+    padding-bottom: 6px;
+}
+
+#brand-title {
+    margin: 0;
+    color: #3B4A2E;
+    font-family: 'Playfair';
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 0.6;
+    position: relative;
+}
+
+#tagline {
+    margin: 0;
+    font-size: 18px;
+    color: #3B4A2E;
+    font-family: 'Playfair';
+    padding-top: 6px;
+}
+
+#view-recipe {
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    padding: 7px 40px 7px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(172, 170, 170, 0.4);
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: 590;
+    font-family: 'Catamaran';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#arrowHome {
+    position: relative;
+    left: 150px;
+    top: 32px;
+}
+
+.button-home:hover #arrowHome {
+    filter: brightness(0) invert(1);
+}
+
+.button-home:hover #view-recipe {
+    background-color: #3B4A2E;
+    color: white;
+}
+
+.TopRatedRecipe {
+    font-family: 'Playfair';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 180px;
+}
+
+.TopRatedRecipe p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+#trophyHome {
+    position: absolute;
+    left: -30px;
+    top: 8px;
+    justify-content: center;
+}
+
+.topR {
+    position: relative;
+    top: 0;
+}
+
+#topRated-description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.topRatedFood {
+    position: relative;
+    top: 11em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    justify-content: center;
+}
+
+.food-card {
+    background-color: rgba(157, 197, 123, 0.18);
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+    transition: transform 0.4s ease;
+}
+
+.food-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.food-card:hover img {
+    transform: scale(1.2);
+}
+
+.food-card h3 {
+    margin: 10px 0;
+    font-size: 23px;
+    font-family: 'Playfair';
+    padding: 5px;
+    color: #3B4A2E;
+}
+
+footer {
+    height: 100px;
+}
+
+.copyrights {
+    background-color: #D0E8C5;
+    height: 270px;
+    position: relative;
+    top: 40vh;
+}
+
+
+

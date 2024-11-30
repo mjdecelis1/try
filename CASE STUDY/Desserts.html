@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="update.css">
+    <title> Desserts </title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+ 
+
+
+<body>
+
+    <header> 
+        <nav>
+            <p id="brand-name"> Delicious <br>Discoveries </p>
+            <a href="home.html" target="_self"> <img src="logo.png" alt="logo" id="logo" width="85"> </a>
+    
+            <div class="navigation"> 
+                <a href="home.html" target="_self"> HOME </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="about.html" target="_blank"> ABOUT US </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="contact.html" target="_blank"> CONTACT </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="service.html" target="_blank"> SERVICE </a>      
+            </div>
+            <input type="text" id="search-bar" placeholder="Find a recipe">  
+            <img src="search.png" alt="logo search" id="search" width="25">
+        </nav>
+    </header>
+    <main>  
+       <h1 class="recipe-category"> DESSERTS </h1>
+       <p class="recipe-description"> Sweet indulgences to complete your meal on a high note. From classic treats to <br> 
+        innovative confections, our desserts are the perfect way to end a dining experience.</p>
+        <form> 
+            <input type="button" id="back-to-categories" value="Back to Categories" onclick="backCategories()">
+          <span id="arrow-back">  <img src="arrow-back.png" width="30"> </span> 
+            </form>
+      
+        
+           
+       
+        <hr class="line-fr">
+
+        <div class="side-left"> </div>
+
+
+            
+            
+            <div class="food-2" id="food2Container"> 
+            <img src="halo-halo.jpeg" width="165" height="160" id="dessert2-image">
+            <p id="food-name"> Halo Halo </p> 
+            <p id="food-description">Halo-Halo is a popular Filipino dessert made with mixed sweet ingredients, crushed ice, milk, <br>
+                 and topped with ice cream or leche flan. </p> 
+           <p id="food-date"> By Lalaine Manalo </p>
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+
+           <div class="dishesDetails" style="display: none">
+            
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <p id="ingredients-title"> Ingredients </p>
+                <li>½ cup gulaman cubes or sago</li>
+                <li>½ cup sweetened beans (garbanzo, red mung, and/or white beans)</li>
+                <li>½ cup Nata de coco, drained well</li>
+                <li>½ cup Kaong, drained well</li>
+                <li>½ cup sweetened saba bananas</li>
+                <li>½ cup sweetened jackfruit strips</li>
+                <li>¼ cup sweetened macapuno</li>
+                <li>½ cup ube halaya</li>
+                <li>shaved ice</li>
+                <li>1 cup evaporated milk</li>
+                <li>1 cup leche flan</li>
+                <li>4 scoops ice cream (mango, ube, or vanilla)</li>
+            </ul>
+          <ol class="instructions">
+            <p id="instructions-title">Instructions</p>
+            <li>Prepare the gulaman according to package directions. Use less water than called for to yield a firmer texture.</li>
+            <li>Prepare the ingredients from scratch or use bottled halo-halo ingredients.</li>
+            <li>In a tall glass, add about a teaspoon each of desired add-ins to about ⅓ full.</li>
+            <li>Pack the glass with shaved ice.</li>
+            <li>Drizzle evaporated milk over the ice.</li>
+            <li>Top the ice with leche flan and scoop of ice cream. </li>
+            <li>Garnish with strips of macapuno and sprinkle with pinipig, if desired.</li>
+            <li>Serve immediately.</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo">
+            <div class="video-container"> 
+        <p id="vid-title"> How to Make Delicious Halo-Halo </p> 
+        <iframe id="recipeVideo" width="460" height="315" src="https://www.youtube.com/embed/G72qqmhNALY?si=EydxWEerSIHptEjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+        
+    </div>
+            </div>
+
+            <div class="food-3" id="food3Container">
+                <img src="Turon.jpg" width="165" height="160" id="dessert3-image">
+                <p id="food-name"> Turon </p> 
+                <p id="food-description"> A Filipino snack made by wrapping slices of banana and jackfruit <br>
+                    in spring roll wrappers. </p> 
+               <p id="food-date"> By Vanjo Merano </p>
+               <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown">
+
+               <div class="dishesDetails" style="display: none">
+                
+                <div class="recipeEssential">
+                <ul class="ingredients">
+                     <p id="ingredients-title"> Ingredients </p>
+                    <li>6 pieces bananas saba or plantains, cut in half (lengthwise)</li>
+                    <li>1 cup jackfruit ripe, sliced</li>
+                    <li>1 1/2 cup sugar</li>
+                    <li>12 pieces lumpia wrapper</li>
+                    <li>2 cups cooking oil</li>
+                </ul>
+              <ol class="instructions">
+                <p id="instructions-title">Instructions</p>
+                <li>Roll the banana on the sugar plate and ensure that the banana is coated with enough sugar</li>
+                 <li>Place the banana with sugar coating on the lumpia wrapper. Add a slice of ripe jackfruit on top.</li>
+                <li>Fold and lock the spring roll wrapper, use water to seal the edge</li>
+                <li>In a pan, heat the oil and put-in some sugar.Wait until the brown sugar floats</li>
+                <li>Put-in the wrapped banana and fry until the wrapper turns golden brown and the extra sugar sticks on wrapper</li>
+                <li>Serve hot as a dessert or snack. Share and Enjoy!</li>
+            </ol>           
+            </div>
+            <div class="dishesVideo"> 
+                <p id="vid-title"> How to Cook Delicious Turon </p> 
+                <iframe  id="recipeVideo"width="460" height="315" src="https://www.youtube.com/embed/4QeQ4O6WHkc?si=IZy2UsNL2PRwhEXq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>
+            </div>
+            </div>
+            <div class="food-4" id="food4Container"> 
+            <img src="leche flan.jpg" width="165" height="160" id="dessert4-image">
+            <p id="food-name"> Leche Flan </p> 
+            <p id="food-description">Creamy Filipino custard dessert made with caramelized sugar, egg yolks, <br>
+                and sweetened condensed milk. </p> 
+           <p id="food-date"> By Vanjo Merano </p>
+           <img src="arrow-button.png" width="55" id="button-arrow" class="arrowDown"> 
+
+           <div class="dishesDetails" style="display: none">
+           
+            <div class="recipeEssential">
+            <ul class="ingredients">
+                <p id="ingredients-title"> Ingredients </p>
+                <li>10 pieces eggs</li>
+                <li>1 can condensed milk (14 oz)</li>
+                <li>1 cup fresh milk or evaporated milk</li>
+                <li>1 cup granulated sugar</li>
+                <li>1 teaspoon vanilla extract</li>
+            </ul>
+          <ol class="instructions">
+            <p id="instructions-title">Instructions</p>
+            <li>Using all the eggs, separate the yolk from the egg white (only egg yolks will be used).</li>
+            <li>Place the egg yolks in a big bowl then beat them using a fork or an egg beater</li>
+            <li>Add the condensed milk and mix thoroughly</li>
+            <li>Pour-in the fresh milk and Vanilla. Mix well</li>
+            <li>Put the mold (llanera) on top of the stove and heat using low fire</li>
+            <li>Put-in the granulated sugar on the mold and mix thoroughly until the solid sugar turns into liquid 
+                <br>(caramel) having a light brown color.</li>
+            <li>Spread the caramel (liquid sugar) evenly on the flat side of the mold</li>
+            <li>Wait for 5 minutes then pour the egg yolk and milk mixture on the mold</li>
+            <li>Cover the top of the mold using an Aluminum foil</li>
+            <li>Steam the mold with egg and milk mixture for 30 to 35 minutes.</li>
+            <li>After steaming, let the temperature cool down then refrigerate</li>
+            <li>Serve for dessert. Share and Enjoy!</li>
+        </ol>           
+        </div>
+        <div class="dishesVideo"> 
+            <p id="vid-title"> How to Cook Leche Flan </p> 
+        <iframe id="recipeVideo"width="460" height="315" src="https://www.youtube.com/embed/vN5G2iBUHO0?si=wDXJp19SmDuu54eO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>
+            </div>
+       <script src="script.js"></script>
+    </main>
+    </body>
+    </html>

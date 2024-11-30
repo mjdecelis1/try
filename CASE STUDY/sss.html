@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ss.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+    <title> View Recipes </title>
+</head>
+
+<body>
+
+    <header> 
+        <nav>
+            <p id="brand-name"> Delicious <br>Discoveries </p>
+            <a href="home.html" target="_self"> <img src="logo.png" alt="logo" id="logo" width="85"> </a>
+    
+            <div class="navigation"> 
+                <a href="home.html" target="_self"> HOME </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="about.html" target="_blank"> ABOUT US </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="contact.html" target="_blank"> CONTACT </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="service.html" target="_blank"> SERVICE </a>      
+            </div>
+            <input type="text" id="search-bar" placeholder="Find a recipe">  
+            <img src="search.png" alt="logo search" id="search" width="25">
+        </nav>
+    </header>
+    
+    <main>
+        <p id="categories"> CATEGORIES </p>
+        <hr>
+        <div class="foodCategories">   
+            <img src="Main dish.jpg" alt="Category 1" class="foodCategoryImage" onclick="window.location.href='Main.html';">
+            <img src="Soup.png" alt="Category 2" class="foodCategoryImage" onclick="window.location.href='Soups.html';">
+            <img src="Halo-halo.jpg" alt="Category 3" class="foodCategoryImage" onclick="window.location.href='Desserts.html';">
+            <img src="Salad.jpg" alt="Category 4" class="foodCategoryImage" onclick="window.location.href='Salads.html';">
+            <img src="AppetizerC.png" alt="Category 5" class="foodCategoryImage" onclick="window.location.href='Appetizer.html';">
+        </div>
+        <div class="CatDescription">
+            <p class="description">Main Dish</p>
+            <p class="description">Soups</p>
+            <p class="description">Desserts</p>
+            <p class="description">Salads</p>
+            <p class="description">Appetizers</p>
+        </div>  
+    </main>
+    
+</body>
+</html>
